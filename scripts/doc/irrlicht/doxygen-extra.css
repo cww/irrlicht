@@ -1,0 +1,125 @@
+body
+{
+    background-color: #101010;
+    color: #d0d0d0;
+}
+
+a
+{
+    background-color: inherit;
+    color: #ffa540;
+}
+
+.tabs,
+.tabs2,
+.tabs3,
+.contents .qindex
+{
+    background-image: none;
+    background-color: #303030;
+    color: #e0e0e0;
+}
+
+.tablist a,
+.navpath ul,
+.navpath li,
+.navpath li.navelem a,
+{
+    background-image: none;
+    background-color: #505050;
+    color: #e0e0e0;
+    text-shadow: 2px 2px #503030;
+}
+
+.tablist a:hover,
+.navpath li.navelem a:hover
+{
+    background-image: none;
+    background-color: #606060;
+    color: #ffffff;
+    text-shadow: 2px 2px #503030;
+}
+
+.tablist li.current a
+{
+    background-image: none;
+    background-color: #74202a;
+    color: #ffffff;
+    text-shadow: 2px 2px #503030;
+}
+
+.navpath li.navelem a::before
+{
+    content: ">> ";
+}
+
+.headertitle
+{
+    background-color: #707070;
+    color: #ffffff;
+}
+
+.entry,
+.desc,
+td.memItemLeft,
+td.memItemRight,
+div#nav-tree
+{
+    background-color: #220c0c;
+    color: #f3f3f3;
+}
+
+td.mdescLeft,
+td.mdescRight
+{
+    background-color: #120808;
+    color: #f3f3f3;
+
+}
+
+.summary a,
+.contents a,
+.summary a:visited,
+.contents a:visited
+{
+    background-color: inherit;
+    color: #fff82e;
+}
+
+h2.groupheader
+{
+    background-color: inherit;
+    color: #ffffff;
+}
+
+.memdoc
+{
+    background-color: #303030;
+    color: #e0e0e0;
+}
+
+.memproto, .memname
+{
+    background-image: none;
+    background-color: #505050;
+    color: #e0e0e0;
+    text-shadow: 2px 2px #503030;
+}
+
+.paramname
+{
+    background-color: inherit;
+    color: #fff82e;
+}
+
+.directory .levels span
+{
+    background-color: inherit;
+    color: #2593cc;
+}
+
+div.fragment
+{
+    background-color: #000000;
+    dolor: #d0d0d0;
+}
